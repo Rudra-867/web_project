@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Waste Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Smart Waste Management System</h1>
+  </header>
+  <main>
+    <section class="dashboard">
+      <h2>Waste Bin Status</h2>
+      <div class="bin" id="bin1">
+        <h3>Bin 1 (Organic)</h3>
+        <div class="progress-container">
+          <div class="progress" id="progress-bin1" style="width: 40%;">40%</div>
+        </div>
+      </div>
+      <div class="bin" id="bin2">
+        <h3>Bin 2 (Recyclable)</h3>
+        <div class="progress-container">
+          <div class="progress" id="progress-bin2" style="width: 80%;">80%</div>
+        </div>
+      </div>
+      <div class="bin" id="bin3">
+        <h3>Bin 3 (Hazardous)</h3>
+        <div class="progress-container">
+          <div class="progress" id="progress-bin3" style="width: 30%;">30%</div>
+        </div>
+      </div>
+    </section>
+    <section class="categorization">
+      <h2>Waste Categorization</h2>
+      <form id="categorization-form">
+        <label for="waste-input">Enter Waste Type:</label>
+        <input type="text" id="waste-input" placeholder="e.g., paper, food, batteries">
+        <button type="submit">Categorize</button>
+      </form>
+      <p id="category-output"></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

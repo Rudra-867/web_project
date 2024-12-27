@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  /* Dashboard Styles */
+  .dashboard {
+    margin-bottom: 2rem;
+  }
+  
+  .bin {
+    margin-bottom: 1rem;
+  }
+  
+  .progress-container {
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    height: 25px;
+  }
+  
+  .progress {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  /* Waste Categorization */
+  .categorization {
+    margin-top: 2rem;
+  }
+  
+  form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    flex: 1;
+  }
+  
+  button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #45a049;
+  }
+  
